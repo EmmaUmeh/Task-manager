@@ -13,7 +13,7 @@ const TaskForm = ({ addTask }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className=''>
+    <form onSubmit={handleSubmit}>
         <div className='flex flex-col items-center justify-center'>
              <h1 className='mb-3 font-bold text-2xl'>Task Manager</h1>
                 <input

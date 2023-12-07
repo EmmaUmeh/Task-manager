@@ -7,7 +7,9 @@ function App() {
   return (
     <div className='mt-20'>
     <TaskForm />
-    <TaskList />
+    <div className='mt-10'>
+      <TaskList />
+    </div>
   </div>
   );
 }

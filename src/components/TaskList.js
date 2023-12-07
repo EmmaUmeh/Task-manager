@@ -18,7 +18,7 @@ const TaskList = ({ tasks, deleteTask, editTask }) => {
   const containerStyle = {
     background: tasks.length > 0 ? 'black' : 'transparent',
     color: 'white',
-    marginTop: '40px',
+    marginTop: '50px',
     width: '40%',
     borderRadius: '10px',
     padding: '10px',
